@@ -9,10 +9,10 @@ import java.util.Map;
 
 @SpringBootApplication
 @RestController
-public class OCapitalApiApplication {
+public class oCapitalApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OCapitalApiApplication.class, args);
+        SpringApplication.run(oCapitalApiApplication.class, args);
     }
 
     @GetMapping("/")
